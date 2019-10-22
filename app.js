@@ -21,6 +21,6 @@ app.get("/results", function(req, res){
     });
 });
 
-app.listen(9000, function(){
+app.listen(3000, function(){
     console.log("Movie App has started!!!");
 });
