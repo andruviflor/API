@@ -1,0 +1,102 @@
+body{
+	background-image: url("https://images.unsplash.com/photo-1510419580815-f9e6b26cf0f2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9");
+   background-repeat: no-repeat;
+}
+
+
+h1{
+	font-family: 'Pacifico';
+	font-size: 45px;
+	margin: 2px;;
+	padding: 10px 20px;
+}
+
+.container{
+	max-height: 
+	margin: 100px auto;
+	background: #f2f2f2;
+	text-align: center;
+}
+
+.box{
+	position: absolute;
+    top: -10px;
+	width: 500px;
+    background: transparent;;
+	color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+form {
+	padding:20px;
+}
+
+input[type=text]{
+	font-family: Roboto Condensed', sans-serif;;
+	display: inline-block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 80%;
+	: center;
+	padding: 8px;
+	border-radius: 6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border: 2px solid black;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+input[type=submit]{
+	padding: 10px 24px;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	background-color: black;
+  	color: white;
+  	border: 2px solid black;
+	font-family: Roboto Condensed', sans-serif;;
+	font-size:15px;
+	margin:10px;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+}
+
+h3{
+	font-family: Roboto Condensed', sans-serif;
+	font-size: 50px;
+	margin: 2px;;
+	padding: 10px 20px;
+}
+
+#results{
+	background:none;
+	position: absolute;
+    top: 50px;
+	color: white;
+	font-family: Roboto Condensed', sans-serif;
+	font-size:15px;
+	text-align: left;
+	
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  font-size: 15px;
+  color: white;
+  padding: 10px 24px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}

@@ -1,14 +1,31 @@
-<h1>Results Page!!!</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Central Cinema</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/styles.css">
+    </head>
 
-<ul>
-    <% data["Search"].forEach(function(movie) { %>
-      <li>
-          <strong>
-              <%= movie["Title"] %>
-          </strong> 
-          - <%=movie["Year"]%>
-      </li>
-    <% }) %>
-</ul>
+	<body>
+		<div class="container" id="results">
+			<div class="landing-header">
 
-<a href="/">Search Again!</a>
+			<h3>Movies related with this title:</h3>
+
+			<ul>
+   				 <% data["Search"].forEach(function(movie) { %>
+     			 <li>
+          			<strong>
+             			 <%= movie["Title"] %>
+          			</strong> 
+          			- <%=movie["Year"]%>
+     			 </li>
+    			<% }) %>
+			</ul>
+
+			<a href="/">Search Again!</a>
+				
+			</div>
+		</div>	
+	</body>
+</html>
