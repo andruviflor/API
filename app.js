@@ -1,6 +1,7 @@
 var express = require("express");
 var app = express();
 var request = require("request");
+var PORT= process.env.PORT || 5000 ));
 
 app.use(express.static(__dirname + '/public'));
 
@@ -21,9 +22,7 @@ app.get("/results", function(req, res){
     });
 });
 
-app.set( 'port', ( process.env.PORT || 5000 ));
-
 // Start node server
-app.listen( app.get( 'port' ), function() {
+app.listen( PORT, function() {
   console.log( 'Node server is running on port ' + app.get( 'port' ));
   });
